@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Weather"
+             x:Class="Weather.MainPage">
+
+
+
+
+
+    <StackLayout>
+        <!-- Place new controls here -->
+
+        <!--Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+
+        <Grid BackgroundColor="#808080" 
+              Padding="10,20,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition 
+                    Height="Auto"
+                />
+
+                <RowDefinition 
+                    Height="Auto" 
+                />
+
+            </Grid.RowDefinitions>
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition 
+                    Width="Auto" 
+                />
+
+                <ColumnDefinition 
+                    Width="*" 
+                />
+                <!--variable Width definition-->
+
+                <ColumnDefinition 
+                    Width="Auto" 
+                />
+
+            </Grid.ColumnDefinitions>
+
+
+            <Label 
+                x:Name="Label1"
+				Text="Search Weather By Zip Code"
+				Grid.Row="0"
+				Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+			/>
+
+
+            <Entry
+                x:Name="zip_code"
+                Placeholder="ZIP CODE" 
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                
+            />
+
+            <Button
+                Text="Search"
+                BackgroundColor="DimGray"
+                Grid.Row="1"
+                Grid.Column="3"
+                Grid.ColumnSpan="2"
+                Clicked="SearchZIP"
+                />
+            <Label
+                x:Name="Label2"
+				Text=""
+				Grid.Row="3"
+                FontSize="20"
+                Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+			/>
+            <Label
+                x:Name="Label3"
+				Text=""
+				Grid.Row="4"
+                FontSize="20"
+                Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+			/>
+            <Label
+                x:Name="Label4"
+				Text=""
+				Grid.Row="5"
+                FontSize="20"
+                Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+                
+			/>
+            <Label
+                x:Name="Label5"
+				Text=""
+				Grid.Row="6"
+                FontSize="20"
+                Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+			/>
+            <Label
+                x:Name="Label6"
+				Text=""
+				Grid.Row="7"
+                FontSize="20"
+                Grid.ColumnSpan="5"
+				HorizontalOptions="Center"
+			/>
+            <Button
+                Text="Refresh"
+                BackgroundColor="DimGray"
+                Grid.Row="10"
+                Grid.Column="0"
+                Clicked="Refresh"
+                />
+            <Button
+                Text="Clear"
+                BackgroundColor="DimGray"
+                Grid.Row="10"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Clicked="Clear"
+                />
+        </Grid>
+
+        <ContentView>
+
+
+
+        </ContentView>
+
+    </StackLayout>
+
+
+
+
+
+</ContentPage>

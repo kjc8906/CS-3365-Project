@@ -1,0 +1,12 @@
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\bin\Debug\netstandard2.0\Weather.deps.json
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\bin\Debug\netstandard2.0\Weather.dll
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\bin\Debug\netstandard2.0\Weather.pdb
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.csproj.CoreCompileInputs.cache
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfoInputs.cache
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfo.cs
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.dll
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.pdb
+C:\Users\Kenneth\source\repos\Weather\Weather\Weather\obj\Debug\netstandard2.0\Weather.csprojAssemblyReference.cache
